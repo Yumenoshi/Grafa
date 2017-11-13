@@ -19,5 +19,5 @@ public:
 	void stworzenieOkna(int argc, char** argv);
 	static void wyswietl();
 };
-
+ 
 #endif /* OKNO_H */
