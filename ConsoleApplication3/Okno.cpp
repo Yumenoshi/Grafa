@@ -13,6 +13,11 @@ int main(int argc, _TCHAR* argv[])
 	return 0;
 }
 
+Okno::Okno
+{
+
+}
+
 Okno::Okno(int wysokoscOkna, int szerokoscOkna, int polozenieOknaX, int polozenieOknaY)
 {
 	this->wysokoscOkna = wysokoscOkna;
@@ -33,4 +38,13 @@ void Okno::stworzenieOkna(int argc, char** argv)
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+	glutInitWindowSize(1024, 768);
+	glutInitWindowPosition(100, 100);
+	glutCreateWindow("okno");
+}
+
+void Okno::wyswietl()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+	glutSwapBuffers();
 }

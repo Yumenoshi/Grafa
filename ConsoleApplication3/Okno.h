@@ -1,7 +1,7 @@
 #ifndef OKNO_H
 #define OKNO_H
 
-#include <gl/freeglut.h>
+#include <GL/freeglut.h>
 
 class Okno
 {
