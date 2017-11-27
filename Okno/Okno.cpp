@@ -13,7 +13,7 @@ int main(int argc, CHAR* argv[])
 	return 0;
 }
 
-Okno::Okno(void)
+Okno::Okno()
 {
 
 }

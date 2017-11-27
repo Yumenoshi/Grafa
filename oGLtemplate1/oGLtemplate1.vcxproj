@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C7CF14CA-9D66-4B81-87DA-D97FF89CC723}</ProjectGuid>
+    <ProjectGuid>{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Okno</RootNamespace>
+    <RootNamespace>oGLtemplate1</RootNamespace>
+    <ProjectName>punkt</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,10 +81,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Okno.h" />
+    <ClInclude Include="..\Okno\punkt.h" />
+    <ClInclude Include="ZmienNazwe.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Okno.cpp" />
+    <ClCompile Include="..\Okno\punkt.cpp" />
+    <ClCompile Include="ZmienNazwe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wspolne.props" />

@@ -12,7 +12,7 @@ private:
 	int polozenieOknaY;
 
 public:
-	Okno(void);
+	Okno();
 	Okno(int wysokoscOkna, int szerokoscOkna, int polozenieOknaX, int polozenieOknaY);
 
 	~Okno(void);

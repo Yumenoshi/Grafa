@@ -20,13 +20,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Okno.h">
+    <ClInclude Include="ZmienNazwe.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Okno\punkt.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Okno.cpp">
+    <ClCompile Include="ZmienNazwe.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Okno\punkt.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
