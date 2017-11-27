@@ -24,7 +24,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Okno\punkt.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -32,7 +32,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Okno\punkt.cpp">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

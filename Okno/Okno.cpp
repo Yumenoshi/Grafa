@@ -13,10 +13,10 @@ int main(int argc, CHAR* argv[])
 	return 0;
 }
 
-Okno::Okno()
-{
+int Okno::wysokoscOkna;
+int Okno::szerokoscOkna;
 
-}
+
 
 Okno::Okno(int wysokoscOkna, int szerokoscOkna, int polozenieOknaX, int polozenieOknaY)
 {
@@ -47,4 +47,9 @@ void Okno::wyswietl()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glutSwapBuffers();
+}
+
+Okno::~Okno()
+{
+
 }
