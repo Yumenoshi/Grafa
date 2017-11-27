@@ -20,12 +20,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Okno\punkt.h">
+    <ClInclude Include="punkt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Okno\punkt.cpp">
+    <ClCompile Include="punkt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
