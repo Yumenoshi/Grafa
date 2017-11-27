@@ -7,26 +7,25 @@
 
 GLuint VAO;
 GLuint VBO;
+GLuint wielkoscPunktu = 10;
 
-class punkt
+class Punkt
 {
 private:
-	static int wysokoscOkna;
-	static int szerokoscOkna;
+	int wysokoscOkna;
+	int szerokoscOkna;
 	int polozenieOknaX;
 	int polozenieOknaY;
 
 public:
-	punkt();
-	punkt(int wysokoscOkna, int szerokoscOkna, int polozenieOknaX, int polozenieOknaY);
-
-	~punkt(void);
-	void inicjalizacjaGlew();
-
+	Punkt();
+	Punkt(int wysokoscOkna, int szerokoscOkna, int polozenieOknaX, int polozenieOknaY);
+	~Punkt(void);
 	void stworzenieOkna(int argc, char** argv);
+	void inicjalizacjaGlew();
+	static void wyswietl();
 	void stworzenieVAO();
 	void stworzenieVBO();
-	static void wyswietl();
 };
 
 #endif /* PUNKT_H */
