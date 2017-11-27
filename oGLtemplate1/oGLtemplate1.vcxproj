@@ -82,11 +82,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Okno\punkt.h" />
-    <ClInclude Include="ZmienNazwe.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Okno\punkt.cpp" />
-    <ClCompile Include="ZmienNazwe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wspolne.props" />
