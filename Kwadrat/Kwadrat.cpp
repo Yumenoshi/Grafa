@@ -14,7 +14,7 @@ int main(int argc, char** argv)
 	punkt.stworzenieVBO();
 	glutDisplayFunc(punkt.wyswietl);
 
-	glClearColor(0.0f, 0.4f, 0.0f, 0.0f);
+	glClearColor(0.0f, 0.7f, 0.0f, 0.0f);
 
 	glutMainLoop();
 
@@ -32,7 +32,7 @@ Kwadrat::Kwadrat(int wysokoscOkna, int szerokoscOkna, int polozenieOknaX, int po
 Kwadrat::Kwadrat()
 {
 	wysokoscOkna = 768;
-	szerokoscOkna = 1024;
+	szerokoscOkna = 768;
 	polozenieOknaX = 100;
 	polozenieOknaY = 100;
 }
@@ -41,7 +41,7 @@ void Kwadrat::stworzenieOkna(int argc, char** argv)
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA); //bufory
-	glutInitWindowSize(1024, 768);
+	glutInitWindowSize(szerokoscOkna, wysokoscOkna);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("punkt");
 
@@ -55,8 +55,8 @@ void Kwadrat::wyswietl()
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
 	glEnableVertexAttribArray(0);
-	glPointSize(10);
-	glDrawArrays(GL_TRIANGLES, 0, 3);
+	//glPointSize(10);
+	glDrawArrays(GL_TRIANGLES, 0, 6);
 
 	glutSwapBuffers();
 
@@ -82,21 +82,15 @@ void Kwadrat::stworzenieVAO()
 
 void Kwadrat::stworzenieVBO() {
 	//Domyœlne, CounterClockWise
-	GLfloat Wierzcholki[9] = {
-		-0.8f, 0.8f, 0.0f,
-		0.8f, -0.8f, 0.0f,
-		0.0f, 0.8f, 0.0f,
+	GLfloat Wierzcholki[18] = {
+		0.5f, 0.5f, 0.0f,
+		0.5f, -0.5f, -0.0f,
+		-0.5f, 0.5f, 0.0f,
+
+		-0.5f, -0.5f, 0.0f,
+		0.5f, -0.5f, 0.0f,
+		-0.5f, 0.5f, 0.0f,
 	};
-
-	//wierzcholki rysowane CounterClockWise
-	GLfloat xCCW[3] = { -0.8, 0.8, 0.0 };
-	GLfloat yCCW[3] = { -0.8, -0.8, 0.8 };
-
-	//glFrontFace() - funkcja do zmieniania tego czy wyœwietlaæ CCW czy CW(clock wise)
-	//glFrontFace(GL_CW) - w³aœnie prze³¹czenie na wyœwietlanie CW
-	//glCullFace() - funkcja do wy³¹czania wyœwietlania przodu figury czy nie, by móc u¿yæ trzeba odpaliæ glEnable(GL_CULL_FACE)
-
-
 
 	glGenBuffers(1, &VBO); //generuje bufor
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
