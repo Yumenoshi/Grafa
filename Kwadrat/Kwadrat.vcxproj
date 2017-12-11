@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}</ProjectGuid>
+    <ProjectGuid>{41BB7B03-2B6F-42DF-89FE-286010AA4F62}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Trojkat</RootNamespace>
+    <RootNamespace>Kwadrat</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,10 +80,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="trojkat.h" />
+    <ClInclude Include="Kwadrat.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="trojkat.cpp" />
+    <ClCompile Include="Kwadrat.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wspolne.props" />

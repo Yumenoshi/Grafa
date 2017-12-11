@@ -20,12 +20,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="trojkat.h">
+    <ClInclude Include="Kwadrat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="trojkat.cpp">
+    <ClCompile Include="Kwadrat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

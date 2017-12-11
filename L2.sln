@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Punkty", "Punkty\Punkty.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Trojkat", "Trojkat\Trojkat.vcxproj", "{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kolo", "Kolo\Kolo.vcxproj", "{8D3D488C-205F-465F-A781-565CE6C02538}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kwadrat", "Kwadrat\Kwadrat.vcxproj", "{41BB7B03-2B6F-42DF-89FE-286010AA4F62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +37,14 @@ Global
 		{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}.Debug|Win32.Build.0 = Debug|Win32
 		{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}.Release|Win32.ActiveCfg = Release|Win32
 		{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}.Release|Win32.Build.0 = Release|Win32
+		{8D3D488C-205F-465F-A781-565CE6C02538}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D3D488C-205F-465F-A781-565CE6C02538}.Debug|Win32.Build.0 = Debug|Win32
+		{8D3D488C-205F-465F-A781-565CE6C02538}.Release|Win32.ActiveCfg = Release|Win32
+		{8D3D488C-205F-465F-A781-565CE6C02538}.Release|Win32.Build.0 = Release|Win32
+		{41BB7B03-2B6F-42DF-89FE-286010AA4F62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41BB7B03-2B6F-42DF-89FE-286010AA4F62}.Debug|Win32.Build.0 = Debug|Win32
+		{41BB7B03-2B6F-42DF-89FE-286010AA4F62}.Release|Win32.ActiveCfg = Release|Win32
+		{41BB7B03-2B6F-42DF-89FE-286010AA4F62}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
