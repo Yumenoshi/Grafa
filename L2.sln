@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kwadrat", "Kwadrat\Kwadrat.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kwadrat z GL_QUADS", "Kwadrat z GL_QUADS\Kwadrat z GL_QUADS.vcxproj", "{BF688680-F66B-4FE0-8179-6AF8EF820231}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shaders", "Shaders\Shaders.vcxproj", "{5B03D06D-6D76-4131-A895-77C12DE21EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,10 @@ Global
 		{BF688680-F66B-4FE0-8179-6AF8EF820231}.Debug|Win32.Build.0 = Debug|Win32
 		{BF688680-F66B-4FE0-8179-6AF8EF820231}.Release|Win32.ActiveCfg = Release|Win32
 		{BF688680-F66B-4FE0-8179-6AF8EF820231}.Release|Win32.Build.0 = Release|Win32
+		{5B03D06D-6D76-4131-A895-77C12DE21EA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B03D06D-6D76-4131-A895-77C12DE21EA9}.Debug|Win32.Build.0 = Debug|Win32
+		{5B03D06D-6D76-4131-A895-77C12DE21EA9}.Release|Win32.ActiveCfg = Release|Win32
+		{5B03D06D-6D76-4131-A895-77C12DE21EA9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
