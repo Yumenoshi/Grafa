@@ -56,7 +56,7 @@ void Kwadrat::wyswietl()
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
 	glEnableVertexAttribArray(0);
 	//glPointSize(10);
-	glDrawArrays(GL_TRIANGLES, 0, 6);
+	glDrawArrays(GL_QUADS, 0, 4);
 
 	glutSwapBuffers();
 
@@ -82,14 +82,11 @@ void Kwadrat::stworzenieVAO()
 
 void Kwadrat::stworzenieVBO() {
 	//Domyœlne, CounterClockWise
-	GLfloat Wierzcholki[18] = {
+	GLfloat Wierzcholki[12] = {
+		-0.5f, 0.5f, 0.0f,
 		0.5f, 0.5f, 0.0f,
 		0.5f, -0.5f, -0.0f,
-		-0.5f, 0.5f, 0.0f,
-
 		-0.5f, -0.5f, 0.0f,
-		0.5f, -0.5f, 0.0f,
-		-0.5f, 0.5f, 0.0f,
 	};
 
 	glGenBuffers(1, &VBO); //generuje bufor
